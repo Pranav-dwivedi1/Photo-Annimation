@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+ }
+
+
+.content{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(91, 156, 173);
+}
+
+.imgdiv{
+    position: absolute;
+    height: 200px;
+    width: 180px;
+    /* background-color: #e7e94d; */
+    overflow: hidden;
+}
+
+.imgdiv img{
+transform: translateY(100%);
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
